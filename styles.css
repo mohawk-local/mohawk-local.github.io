@@ -54,12 +54,44 @@ a:active { text-decoration: none; }
 		padding: 8px 16px 8px 16px
 }
 
+.googlebar {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+		background-color: white;
+
+		margin: 8px 8px 0px 8px;
+
+		border-style: solid;
+		border-radius: 64px;
+		border-color: black;
+		border-width: 2px;
+
+}
+
+.googlelink {
+		color: black;
+
+		font-family: Copperplate, Helvetica, sans-serif;
+		font-size: 24px;
+
+		border-style: solid;
+		border-radius: 32px;
+		border-color: #e0e0e0;
+		border-width: 2px;
+
+		padding: 4px 12px 4px 12px;
+		margin: 4px 8px 4px 8px;
+}
+
 .shortcut {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 
-		padding-top: 8px;
+		padding-top: 4px;
 		padding-bottom: 8px;
 }
 
