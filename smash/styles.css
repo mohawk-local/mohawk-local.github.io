@@ -1,0 +1,40 @@
+[hidden] { display: none !important; }
+
+body {
+		background-color: black;
+		color: white;
+}
+
+h1 {
+		text-align: center;
+		margin: 2px
+}
+
+h3 {
+		text-align: center;
+}
+
+.results {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+}
+
+.game_menu {
+		display: flex;
+		justify-content: center;
+
+		margin: 32px 32px 32px 32px;
+}
+
+.stage_select {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+}
+
+.stages {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+}
