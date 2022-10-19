@@ -74,7 +74,7 @@ peer.on('open', function(id) {
 
 function add_stage(stage, element_id = "stage_select") {
 		var img = document.createElement("img");
-		img.src = "/stages/" + stage.id + ".jpg";
+		img.src = "stages/" + stage.id + ".jpg";
 		img.style.width = "250px";
 		img.style.height = "140px";
 		img.value = stage.id;
@@ -100,7 +100,7 @@ function clear_stages() {
 
 function add_character(character, element_id = "character_select") {
 		var img = document.createElement("img");
-		img.src = "/characters/" + character.id + ".png";
+		img.src = "characters/" + character.id + ".png";
 		img.style.width = "135px";
 		img.style.height = "82px";
 		img.value = character.id;
