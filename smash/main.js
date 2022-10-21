@@ -362,6 +362,9 @@ async function host() {
 		document.getElementById("header_text").hidden = true;
 		document.getElementById("id_text").hidden = true;
 
+		// Wait for Open Connection
+		await waitFor(() => peer_conn.open);
+
 		// Wait for Self Ready
 		document.getElementById("ready_button").hidden = false;
 		await waitFor(() => ready);
@@ -417,6 +420,9 @@ async function join() {
 
 		// Change to Stage Select Screen
 		start();
+
+		// Wait for Open Connection
+		await waitFor(() => peer_conn.open);
 
 		// Wait for Self Ready
 		document.getElementById("ready_button").hidden = false;
