@@ -8,11 +8,12 @@ body, html {
 }
 
 h1 {
-		background-color: #EE2A2E;
+		background-color: #C60204;
+		/*background-color: #EE2A2E;*/
 		color: white;
 		
-		-webkit-text-stroke: 1px black;
-		font-family: Helvetica, Arial, sans-serif;
+		/*-webkit-text-stroke: 1px black;*/
+		font-family: Roboto Slab, Helvetica, serif;
 		font-size: 36px;
 		font-weight: bold;
 
