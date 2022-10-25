@@ -54,6 +54,10 @@ a:active { text-decoration: none; }
 		padding: 8px 16px 8px 16px
 }
 
+.navlink:hover {
+		background-color: lightgrey;
+}
+
 .googlebar {
 		display: flex;
 		flex-direction: row;
@@ -84,6 +88,10 @@ a:active { text-decoration: none; }
 
 		padding: 4px 12px 4px 12px;
 		margin: 4px 8px 4px 8px;
+}
+
+.googlelink:hover {
+		background-color: lightgrey;
 }
 
 .shortcut {
